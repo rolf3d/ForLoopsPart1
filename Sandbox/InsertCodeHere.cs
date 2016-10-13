@@ -14,7 +14,7 @@ namespace Sandbox
             for (int i = 0; i < 15; i = i + 3)
             {
                 //   0-3-6-9-12
-                Console.WriteLine(i); // Uncomment to see result
+                //Console.WriteLine(i); // Uncomment to see result
             }
             Console.WriteLine("End of case 1");
 
@@ -24,7 +24,7 @@ namespace Sandbox
             for (int i = 10; i >= 3; i--)
             {
                 // 10-9-8-7-6-5-4-3
-                Console.WriteLine(i); // Uncomment to see result
+                //Console.WriteLine(i); // Uncomment to see result
             }
             Console.WriteLine("End of case 2");
 
@@ -35,7 +35,8 @@ namespace Sandbox
             while (c3 < 12)
             {
                 c3 = c3 + 2;
-                Console.WriteLine(c3);
+                // 2-4-6-8-10-12
+                //Console.WriteLine(c3);
             }
             Console.WriteLine("End of case 3");
 
@@ -46,6 +47,7 @@ namespace Sandbox
             while (c4 < 50)
             {
                 Console.WriteLine(c4);
+                // 0-2-6-14-30
                 c4 = c4 * 2 + 2;
             }
             Console.WriteLine("End of case 4");
