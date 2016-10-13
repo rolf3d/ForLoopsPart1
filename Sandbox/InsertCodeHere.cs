@@ -13,7 +13,8 @@ namespace Sandbox
             Console.WriteLine("Start of case 1");
             for (int i = 0; i < 15; i = i + 3)
             {
-                // Console.WriteLine(i); // Uncomment to see result
+                //   0-3-6-9-12
+                Console.WriteLine(i); // Uncomment to see result
             }
             Console.WriteLine("End of case 1");
 
@@ -22,7 +23,8 @@ namespace Sandbox
             Console.WriteLine("Start of case 2");
             for (int i = 10; i >= 3; i--)
             {
-                // Console.WriteLine(i); // Uncomment to see result
+                // 10-9-8-7-6-5-4-3
+                Console.WriteLine(i); // Uncomment to see result
             }
             Console.WriteLine("End of case 2");
 
